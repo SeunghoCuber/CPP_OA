@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(make)",
+      "Bash(make test)",
+      "Bash(make test FILTER=*)",
+      "Bash(make clean)",
+      "Bash(./build/run_tests*)"
+    ],
+    "deny": [
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
